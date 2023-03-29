@@ -1,0 +1,11 @@
+@import '../../../assets/scss/_variables.scss';
+
+main.experience {
+  h3 {
+    color: $brand-primary;
+    text-align: center;
+    width: 100%;
+    line-height: 48px;
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,42 @@
+@import '../../assets/scss/_variables.scss';
+
+header {
+	position: relative;
+	&.bg {
+		background-color: white;
+
+		button {
+			background-color: #999;
+		}
+	}
+
+	.hamburger {
+		position: absolute;
+	}
+
+	.signin-button {
+		color: white;
+	}
+	.quiz-button {
+		background-color: $brand-primary !important;
+		font-family: $font-primary;
+		margin-right: 8px;
+		color: white;
+		font-weight: 600;
+	}
+
+	.header-logo {
+		flex-grow: 1;
+		margin: 0 auto;
+		display: block;
+		img {
+			height: 50px;
+		}
+	}
+
+	.right-menu {
+		position: absolute;
+		top: 14px;
+		right: 24px;
+	}
+}

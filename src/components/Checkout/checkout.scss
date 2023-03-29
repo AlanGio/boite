@@ -1,0 +1,30 @@
+.page {
+	&.checkout {
+
+		.cart-background {
+			background-image: url('../../assets/images/AdobeStock_263790084.png');
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-position: center;
+			background-size: contain;
+			text-align: left;
+    }
+    
+    h2 {
+      font-family: "PT Sans", sans-serif;
+      font-size: 56px;
+      letter-spacing: -1px;
+      font-weight: 400;
+      text-transform: none;
+      color: #f94b79; 
+      margin: 32px 0 0;
+      text-align: center;
+    }
+
+    h3 {
+      line-height: 21px;
+      margin: 8px 0 0;
+    }
+    
+	}
+}

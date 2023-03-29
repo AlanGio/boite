@@ -1,0 +1,64 @@
+@import '../../assets/scss/_variables.scss';
+
+.events {
+	background-color: #eee;
+	flex-grow: 0;
+
+	.background {
+		width: 100%;
+		height: 260px;
+		background-image: url('../../assets/images/sorteo.jpeg');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+
+		>div {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			background-color: rgba(255, 255, 255, 0.6);
+		}
+
+		h2 {
+			font-family: $font-primary;
+			font-size: 56px;
+			letter-spacing: -1px;
+			font-weight: 400;
+			text-transform: none;
+			color: $brand-secondary;
+		}
+
+		.button {
+			margin-top: 8px;
+			background-color: $brand-primary;
+			font-family: $font-primary;
+			font-size: 20px;
+			text-transform: none;
+			text-decoration: none;
+		}
+	}
+
+	h3 {
+		font-family: $font-primary;
+		font-size: 30px;
+		letter-spacing: -1px;
+		font-weight: 400;
+		text-transform: none;
+		margin: 0;
+		line-height: 46px;
+		line-height: 40px;
+		margin: 8px 0;
+		color: $gray-dark;
+	}
+
+	.content {
+		margin: 32px 0;
+
+		p {
+			line-height: 24px;
+			color: $gray;
+		}
+	}
+}

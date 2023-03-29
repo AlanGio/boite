@@ -1,0 +1,58 @@
+@import '../../assets/scss/_variables.scss';
+
+.register {
+	.background {
+		width: 100%;
+		background-image: url('../../assets/images/AdobeStock_187335069.jpg');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: top;
+		background-size: cover;
+		text-align: left;
+
+		h2 {
+			margin: 65px 0 0;
+			text-align: left;
+			font-family: $font-primary;
+			font-size: 56px;
+			letter-spacing: -1px;
+			font-weight: 400;
+			text-transform: none;
+			color: $brand-secondary;
+			display: inline-block;
+		}
+
+		h3 {
+			text-align: left;
+			font-family: $font-primary;
+			font-size: 24px;
+			line-height: 32px;
+			letter-spacing: -1px;
+			font-weight: 400;
+			text-transform: none;
+			color: $gray-dark;
+			padding: 16px 0;
+			margin: 0;
+		}
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+
+		> div {
+			margin-right: 16px;
+			flex-grow: 2;
+		}
+	}
+
+	.address-suggestions-container {
+		width: 300px;
+		position: relative;
+	}
+
+	.textfield {
+		position: relative;
+	}
+}

@@ -1,0 +1,74 @@
+@import '../../../../assets/scss/_variables.scss';
+
+.choice {
+	float: none;
+	margin: 0;
+
+	.answer-container {
+		position: relative;
+		.material-icons {
+			position: absolute;
+			top: 40px;
+			left: calc(50% - 16px);
+			font-size: 32px;
+		}
+	}
+
+	.check {
+		font-size: 30px;
+		font-size: 1.875rem;
+		top: calc(50% - 26px);
+		left: calc(50% - 15px);
+	}
+
+	.swatch {
+		width: 100px;
+		height: 100px;
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+		margin: 10px auto;
+
+		&.image {
+			background-size: cover;
+		}
+
+		&.big-image {
+			width: 161px;
+			height: 255px;
+			border-radius: 0;
+			background-size: contain;
+		}
+
+		&.icon {
+			background-size: cover;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: bottom;
+		}
+	}
+
+	.label {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 12px;
+
+		&.only-value {
+			font-size: 18px;
+			border: 1px solid $brand-primary;
+			padding: 20px 16px 32px;
+		}
+	}
+
+	span.MuiButtonBase-root {
+		&:hover {
+			background-color: transparent !important;
+		}
+	}
+}
+.MuiRadio-colorSecondary.Mui-checked:hover {
+	border-radius: 0 !important;
+}

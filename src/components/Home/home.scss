@@ -1,0 +1,110 @@
+@import '../../assets/scss/_variables.scss';
+
+.home {
+	background-color: #eee;
+	flex-grow: 0;
+
+	.background {
+		width: 100%;
+		height: 480px;
+		background-image: url('../../assets/images/AdobeStock_259547347.jpg');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: top;
+		background-size: cover;
+		text-align: left;
+
+		>div {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		h2 {
+			text-align: left;
+			font-family: $font-primary;
+			font-size: 56px;
+			letter-spacing: -1px;
+			font-weight: 400;
+			text-transform: none;
+			color: white;
+		}
+
+		.button {
+			margin-top: 8px;
+			background-color: $brand-primary;
+			font-family: $font-primary;
+			font-size: 20px;
+			text-transform: none;
+			text-decoration: none;
+		}
+	}
+
+	h3 {
+		text-align: left;
+		font-family: $font-primary;
+		font-size: 30px;
+		letter-spacing: -1px;
+		font-weight: 400;
+		text-transform: none;
+		color: white;
+		margin: 0;
+		line-height: 46px;
+		line-height: 40px;
+		margin: 8px 0;
+		width: 90%;
+	}
+
+	.offer-boxes {
+		font-family: $font-primary;
+		background-color: $gray-dark;
+		padding: 16px 0;
+		text-align: center;
+		border-radius: 0;
+
+		.offer-icons {
+			width: 50px;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			text-align: left;
+			color: #eee;
+			align-items: center;
+			border-right: 1px solid #666;
+
+			li {
+				line-height: 20px;
+
+				h4 {
+					font-size: 18px;
+    			font-weight: 600;
+				}
+				h5 {
+					font-size: 12px;
+				}
+
+				&:first-child {
+					margin-right: 12px;
+				}
+			}
+		}
+
+		.offer-boxes-container {
+			>div {
+				&:last-child {
+					ul {
+						border-right: none;
+					}
+				}
+			}
+		}
+
+		h4 {
+			font-size: 16px;
+			font-weight: 500;
+			color: #eee;
+		}
+	}
+}
