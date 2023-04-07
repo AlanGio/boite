@@ -12,7 +12,7 @@ import "./register.scss";
 
 const Register = () => {
   const [open, setOpen] = React.useState(false);
-  const [suggestion, setSuggestion] = useState(null);
+  const [suggestion] = useState(null);
   const [values, setValues] = useState({
     firstName: "",
     lastName: "",
