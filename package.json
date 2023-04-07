@@ -28,7 +28,8 @@
     "redux-thunk": "^2.3.0",
     "sass": "^1.60.0",
     "styled-components": "^4.4.0",
-    "typeface-roboto": "0.0.75"
+    "typeface-roboto": "0.0.75",
+    "eslint": "^6.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
