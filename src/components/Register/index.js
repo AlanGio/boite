@@ -19,6 +19,7 @@ const Register = () => {
     email: "",
     password: "",
     repeatPassword: "",
+    phone: "",
     address: "",
     address2: "",
   });
@@ -103,12 +104,21 @@ const Register = () => {
                       <TextField
                         className="textfield"
                         id="outlined-name"
-                        label="Dirección"
-                        value={values.repeatPassword}
-                        onChange={handleChange("repeatPassword")}
+                        label="Telefono"
+                        value={values.phone}
+                        onChange={handleChange("phone")}
                         margin="normal"
                         variant="outlined"
-                        type="password"
+                      />
+
+                      <TextField
+                        className="textfield"
+                        id="outlined-name"
+                        label="Dirección"
+                        value={values.address}
+                        onChange={handleChange("address")}
+                        margin="normal"
+                        variant="outlined"
                       />
 
                       <TextField
