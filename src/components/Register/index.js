@@ -48,7 +48,7 @@ const Register = () => {
                 belleza personalizada.
               </h3>
               <form noValidate autoComplete="off" onSubmit={handleSubmit}>
-                <Grid container direction="row" justify="center">
+                <Grid container direction="row" justifyContent="center">
                   <Grid item md={12}>
                     <div className="container">
                       <TextField
